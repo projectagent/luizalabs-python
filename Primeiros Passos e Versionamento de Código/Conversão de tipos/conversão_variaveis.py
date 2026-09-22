@@ -50,7 +50,7 @@ print(str(idade))       # converte int para str
 print(type(str(idade))) # <class 'str'>
 
 # f-string: formata os valores como texto automaticamente
-texto = f"idade: {idade} preço: {preco}"
+texto = f"idade: {idade}\npreço: {preco}"
 print(texto)            # idade: 28 preço: 10.5
 print(type(texto))      # <class 'str'>
 
