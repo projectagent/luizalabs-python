@@ -16,8 +16,7 @@ print(type(preco))      # <class 'float'>
 # Divisão sempre resulta em float
 preco = 10/2
 print(preco)            # 5.0
-print(type(preco))      # <class 'float'>
-
+print(type(preco))      # <class 'float'
 # ---------------------------------------------------------------------
 # float -> int
 # ---------------------------------------------------------------------
