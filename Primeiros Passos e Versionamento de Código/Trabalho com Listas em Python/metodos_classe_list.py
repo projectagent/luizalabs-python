@@ -85,3 +85,21 @@ numero = [1, 2, 3, 4, 5]
 numero.reverse()
 print(numero) # [5, 4, 3, 2, 1]
 
+# Len serve para ver o tamanho da lista
+
+print(len(numero))
+
+# Sorted serve para criar uma nova lista ordenada
+
+print(sorted(numero)) # [1, 2, 3, 4, 5]
+
+# Sorted reverse=True serve para criar uma nova lista ordenada em ordem decrescente
+
+print(sorted(numero, reverse=True)) # [5, 4, 3, 2, 1]
+
+# Sorted reverse=True com lambda e x: x.len() cria uma nova lista ordenada por tamanho em ordem decrescente
+
+linguagens = ["Python", "Java", "C++", "C", "JavaScript", "Ruby", "Go", "Swift", "PHP", "Rust"]
+
+
+print(sorted(linguagens, key=lambda x: len(x), reverse=True))
